@@ -1,0 +1,353 @@
+   * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Oxanium', cursive;
+            background-color: #f2f2f2;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: black;
+
+        }
+
+        .navbar a {
+
+            color: white;
+            padding: 15px;
+        }
+
+        .navbar>a:hover {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        .a-right {
+            margin-left: auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .header-intro-text {
+            margin: 15px;
+            font-size: 40px;
+            letter-spacing: .5px;
+        }
+
+        #section1 {
+            position: relative;
+
+        }
+
+        #section1 img {
+            width: 100%;
+        }
+
+        .sec-h1 {
+            position: absolute;
+            top: 40%;
+            left: 2%;
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+
+        }
+
+        .sec-btn {
+            position: absolute;
+            top: 50%;
+            left: 2%;
+            padding: 15px;
+            opacity: 0.5;
+            text-transform: uppercase;
+
+        }
+
+        .sec-btn:hover {
+            opacity: 1.0;
+            cursor: pointer;
+        }
+
+        #section2 {
+            margin: 30px;
+            display: flex;
+        }
+
+        .col75 {
+            flex: 75%;
+        }
+
+        .mgleft10 {
+            margin-left: 10px;
+        }
+
+        .col25 {
+
+            flex: 25%;
+        }
+
+        .card-bottom-body {
+            display: flex;
+        }
+
+        .card {
+            margin-top: 40px;
+            -webkit-box-shadow: 2px -5px 23px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px -5px 23px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px -5px 15px 0px rgba(0, 0, 0, 0.75);
+
+        }
+
+        .bg-black {
+            background-color: black;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .color-white {
+            color: white;
+
+        }
+
+        .color-black {
+            color: black;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .pad-30 {
+            padding: 30px;
+        }
+
+        .card-img {
+            width: 100%;
+        }
+
+        .card-title {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .card-title-read {
+            opacity: 0.7;
+        }
+
+        .card-text {
+            text-align: justify;
+        }
+
+        .card-bottom-body {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            align-items: center;
+        }
+
+        .btn-like {
+            padding: 10px;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .btn-like:hover {
+            cursor: pointer;
+            background-color: black;
+            color: white;
+
+
+        }
+
+        .card-replies {
+            background-color: black;
+            color: white;
+
+        }
+
+        .card-blacked {
+            background-color: white;
+            color: black;
+            padding: 4px;
+            font-size: 15px;
+            margin-left: 3px;
+        }
+
+        .card-replies:hover {
+            background-color: gray;
+        }
+
+        .comment {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .comment-img {
+            width: 150px;
+            height: 150px;
+
+        }
+
+        .detail {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 5px;
+        }
+
+        .comment-author {
+            margin-bottom: 8px;
+        }
+
+        .comment-read {
+            opacity: 0.7;
+
+        }
+
+        .card-desc {
+            margin-bottom: 15px;
+        }
+
+        .mg10 {
+            margin: 10px;
+        }
+
+        .card-header {
+            padding: 15px;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .item-img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .item {
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+
+        .item-detail {
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+        }
+
+        .item:hover {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+
+        .ad {
+            text-align: center;
+        }
+
+        .pad-10 {
+            padding: 10px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+
+        .tag {
+            background-color: #f2f2f2;
+            padding: 3px;
+            margin: 2px;
+        }
+
+        .selected {
+            background-color: black;
+            color: white;
+        }
+
+        .gallery {
+            padding: 2px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+        }
+
+        .gallery-img {
+            width: 40%;
+            margin: 6px;
+
+        }
+        .social-media-body{
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .social-link{
+            font-size: 30px;
+            margin: 5px;
+        }
+        .social-link:hover{
+            color: red;
+            
+        }
+        .uye-btn{
+            
+            background-color: tomato;
+            color: white;
+            padding: 5px;
+            border: none;
+            margin-top: 5px;
+            margin-bottom: 5px;
+           
+        }
+        .uye-btn:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        .uye-textbox{
+            margin-top: 5px;
+           padding: 5px;
+        }
+        .uye{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+            
+        }
+        footer{
+            background-color: slategray;
+            padding: 55px;
+        }
+        @media screen and (max-width:800px)
+        {
+            .navbar{
+                display: none;
+            }
+            #section2{
+                flex-direction: column;
+            }
+            
+        }
